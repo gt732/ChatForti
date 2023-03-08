@@ -5,7 +5,7 @@ This is a quick project that uses FastAPI to create an API endpoint that receive
 The response is saved to a Python object, which can then be utilized in various ways, such as forwarding to Slack, Teams, Email, Updating a ticket, and more.
 
 # Demo
-![alt text](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTY5MzU1M2MwYjQzZTM2NGM2ZmEzMTgzYWFiOGM2ZGEwYTY1ODY1MyZjdD1n/6GnmYGHkmC5PEuZngG/giphy.gif)
+![alt text](https://i.imgur.com/4zR6eoT.png)
 ## Tools
 - FastAPI
 - Fortigate Firewall
