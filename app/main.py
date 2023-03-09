@@ -1,10 +1,11 @@
 from fastapi import FastAPI, status, HTTPException, Body
 from rich import print
 import openai
+import os
 
 app = FastAPI()
 
-openai.api_key = "XXXXXXXXXXXXXXXXXXXXXXX"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 model_engine = "gpt-3.5-turbo"
 
 chatgpt_context = """
